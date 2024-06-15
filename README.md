@@ -6,7 +6,7 @@ Dit project betreft een neurale netwerk implementatie voor zowel cijfer- als let
 
 ## Bestanden en mappenstructuur
 
--   **data**
+-   **data (.gitignore)**
     -   **digits**
         -   `mnist-original.mat`
     -   **letters**
@@ -27,11 +27,9 @@ Dit project betreft een neurale netwerk implementatie voor zowel cijfer- als let
         -   `Theta1.txt`
         -   `Theta2.txt`
         -   `Theta3.txt`
--   `cost_history.xlsx`
 -   `Model.py`
 -   `Prediction.py`
 -   `RandInitialize.py`
--   `training_history.xlsx`
 
 ## Instructies
 

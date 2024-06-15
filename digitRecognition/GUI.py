@@ -83,9 +83,9 @@ def sigmoid(z):
     return 1 / (1 + np.exp(-z))
 
 if __name__ == "__main__":
-    Theta1 = np.loadtxt('model/Theta1.txt')
-    Theta2 = np.loadtxt('model/Theta2.txt')
-    Theta3 = np.loadtxt('model/Theta3.txt')
+    Theta1 = np.loadtxt('model/digits/Theta1.txt')
+    Theta2 = np.loadtxt('model/digits/Theta2.txt')
+    Theta3 = np.loadtxt('model/digits/Theta3.txt')
 
     root = tk.Tk()
     

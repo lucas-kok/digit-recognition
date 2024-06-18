@@ -72,7 +72,7 @@ class LetterRecognizerApp:
         # Resize the image to 28x28 pixels
         image = self.image.resize((28, 28))
         # Rotate the image 90 degrees to the left
-        image = image.rotate(90)
+        image = image.rotate(-90)
         image = ImageOps.invert(image)
         image = image.convert('L')
         image_data = np.array(image).reshape(1, 28 * 28)
